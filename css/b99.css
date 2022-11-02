@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .nome-stream {
+    color: var(--vermelho);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    margin-left: 6px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Serie Principal */
+
+.serie-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/fundo-b99.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.botao {
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.botao i {
+    margin-right: 6px;
+}
+
+.serie-principal .descricao {
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+
+.titulo {
+    font-size: 40px;
+    margin-top: 8%;
+}
+
+.container {
+    margin-left: 30px;
+}  
+
+
+.serie-principal .container {
+    width: 40%;
+}
+
+.onde-assistir .assista {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: -60px;
+}
+
+.onde-assistir img {
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.box-filme {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 12px;
+}
+
+.serie-principal .container {
+    width: 70%;
+}
+
+figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+/*    width: 100%;
+    height: 100%; */
+    padding: 10px;
+    box-sizing: border-box;
+    transform: opacity 1s;
+    margin-top: 6px;
+}
+
+figcaption {
+    opacity: 1;
+}
+
+figcaption p {
+    font-size: 13px;
+}
+
+.nome-stream {
+    text-transform: uppercase;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao a:hover {
+    color: black;
+}
